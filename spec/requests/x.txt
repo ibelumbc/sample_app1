@@ -1,0 +1,75 @@
+FFFFFFFFF
+
+Failures:
+
+  1) Static pages About page should have the h1 'About Us'
+     Failure/Error: visit '/static_pages/about'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_3:0x9ebe96c>
+     # ./static_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  2) Static pages About page should have the title 'About Us'
+     Failure/Error: visit '/static_pages/about'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_3:0x973e228>
+     # ./static_pages_spec.rb:34:in `block (3 levels) in <top (required)>'
+
+  3) Static pages Home page should have the base title
+     Failure/Error: visit '/static_pages/home'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_1:0x973c720>
+     # ./static_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  4) Static pages Home page should have the h1 'Sample App'
+     Failure/Error: visit '/static_pages/home'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_1:0x9f13520>
+     # ./static_pages_spec.rb:5:in `block (3 levels) in <top (required)>'
+
+  5) Static pages Home page should not have a custom page title
+     Failure/Error: visit '/static_pages/home'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_1:0x9f10cd0>
+     # ./static_pages_spec.rb:14:in `block (3 levels) in <top (required)>'
+
+  6) Static pages Contact page should have the h1 'Contact'
+     Failure/Error: visit '/static_pages/contact'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_4:0x971e1bc>
+     # ./static_pages_spec.rb:40:in `block (3 levels) in <top (required)>'
+
+  7) Static pages Contact page should have the title 'Contact'
+     Failure/Error: visit '/static_pages/contact'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_4:0x971c754>
+     # ./static_pages_spec.rb:44:in `block (3 levels) in <top (required)>'
+
+  8) Static pages Help page should have the h1 'Help'
+     Failure/Error: visit '/static_pages/help'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_2:0x9c362e4>
+     # ./static_pages_spec.rb:20:in `block (3 levels) in <top (required)>'
+
+  9) Static pages Help page should have the title 'Help'
+     Failure/Error: visit '/static_pages/help'
+     NoMethodError:
+       undefined method `visit' for #<RSpec::Core::ExampleGroup::Nested_1::Nested_2:0x9c3478c>
+     # ./static_pages_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+Finished in 0.0265 seconds
+9 examples, 9 failures
+
+Failed examples:
+
+rspec ./static_pages_spec.rb:29 # Static pages About page should have the h1 'About Us'
+rspec ./static_pages_spec.rb:33 # Static pages About page should have the title 'About Us'
+rspec ./static_pages_spec.rb:8 # Static pages Home page should have the base title
+rspec ./static_pages_spec.rb:4 # Static pages Home page should have the h1 'Sample App'
+rspec ./static_pages_spec.rb:13 # Static pages Home page should not have a custom page title
+rspec ./static_pages_spec.rb:39 # Static pages Contact page should have the h1 'Contact'
+rspec ./static_pages_spec.rb:43 # Static pages Contact page should have the title 'Contact'
+rspec ./static_pages_spec.rb:19 # Static pages Help page should have the h1 'Help'
+rspec ./static_pages_spec.rb:23 # Static pages Help page should have the title 'Help'
+
+Randomized with seed 7191
+
