@@ -1,0 +1,172 @@
+.............FFFFFFFFFFFFFFFFFFFF..
+
+Failures:
+
+  1) Users 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  2) Users 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  3) Users 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  4) Users 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  5) Users 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  6) Users 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  7) Users 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  8) Users when name is too long 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  9) Users when password is not present 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  10) Users when email format is valid should be valid
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  11) Users when password confirmation is nil 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  12) Users when email format is invalid should be invalid
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  13) Users when password doesn't match confirmation 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  14) Users when email address is already taken 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  15) Users when name is not present 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  16) Users when email is not present 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  17) Users with a password that's too short 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  18) Users return value of authenticate method with valid password 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  19) Users return value of authenticate method with invalid password 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+  20) Users return value of authenticate method with invalid password 
+     Failure/Error: @user = Users.new(name: "Example User", email: "user@example.com",
+     ActiveModel::MassAssignmentSecurity::Error:
+       Can't mass-assign protected attributes: password, password_confirmation
+     # ./spec/models/users_spec.rb:4:in `new'
+     # ./spec/models/users_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+Finished in 0.83463 seconds
+35 examples, 20 failures
+
+Failed examples:
+
+rspec ./spec/models/users_spec.rb:10 # Users 
+rspec ./spec/models/users_spec.rb:14 # Users 
+rspec ./spec/models/users_spec.rb:13 # Users 
+rspec ./spec/models/users_spec.rb:12 # Users 
+rspec ./spec/models/users_spec.rb:11 # Users 
+rspec ./spec/models/users_spec.rb:9 # Users 
+rspec ./spec/models/users_spec.rb:8 # Users 
+rspec ./spec/models/users_spec.rb:27 # Users when name is too long 
+rspec ./spec/models/users_spec.rb:62 # Users when password is not present 
+rspec ./spec/models/users_spec.rb:42 # Users when email format is valid should be valid
+rspec ./spec/models/users_spec.rb:72 # Users when password confirmation is nil 
+rspec ./spec/models/users_spec.rb:31 # Users when email format is invalid should be invalid
+rspec ./spec/models/users_spec.rb:67 # Users when password doesn't match confirmation 
+rspec ./spec/models/users_spec.rb:57 # Users when email address is already taken 
+rspec ./spec/models/users_spec.rb:17 # Users when name is not present 
+rspec ./spec/models/users_spec.rb:22 # Users when email is not present 
+rspec ./spec/models/users_spec.rb:77 # Users with a password that's too short 
+rspec ./spec/models/users_spec.rb:84 # Users return value of authenticate method with valid password 
+rspec ./spec/models/users_spec.rb:88 # Users return value of authenticate method with invalid password 
+rspec ./spec/models/users_spec.rb:89 # Users return value of authenticate method with invalid password 
+
+Randomized with seed 44058
+
