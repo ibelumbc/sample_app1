@@ -1,7 +1,7 @@
 require 'spec_helper'
-describe Users do
+describe User do
 before do
-@user = Users.new(name: "Example User", email: "user@example.com",
+@user = User.new(name: "Example User", email: "user@example.com",
 password: "foobar", password_confirmation: "foobar")
 end
 subject { @user }
@@ -79,7 +79,7 @@ end
 
 describe "return value of authenticate method" do
 before { @user.save }
-let(:found_user) { Users.find_by_email(@user.email) }
+let(:found_user) { User.find_by_email(@user.email) }
 describe "with valid password" do
 it { should == found_user.authenticate(@user.password) }
 end
