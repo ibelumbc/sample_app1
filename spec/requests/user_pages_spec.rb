@@ -53,6 +53,7 @@ before { click_button submit }
 let(:user) { User.find_by_email('user@example.com') }
 it { should have_selector('title', text: user.name) }
 it { should have_selector('div.alert.alert-success', text: 'Welcome to the Sample App!') }
+it { should have_link('Sign out') }
 end
 
 end
