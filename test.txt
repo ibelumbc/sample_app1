@@ -1,0 +1,102 @@
+2013-04-07T19:01:29+00:00 heroku[run.5692]: Awaiting client
+2013-04-07T19:01:29+00:00 heroku[run.5692]: Starting process with command `bundle exec rake db:migrate`
+2013-04-07T19:01:29+00:00 heroku[run.5692]: State changed from starting to up
+2013-04-07T19:01:35+00:00 heroku[run.5692]: Client connection closed. Sending SIGHUP to all processes
+2013-04-07T19:01:36+00:00 heroku[run.5692]: Process exited with status 0
+2013-04-07T19:01:36+00:00 heroku[run.5692]: State changed from up to complete
+2013-04-07T19:02:10+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2013-04-07T19:02:10+00:00 app[web.1]: Started GET "/" for 69.251.188.202 at 2013-04-07 19:02:10 +0000
+2013-04-07T19:02:10+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2013-04-07T19:02:10+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+2013-04-07T19:02:10+00:00 app[web.1]: Completed 500 Internal Server Error in 28ms
+2013-04-07T19:02:10+00:00 app[web.1]:   Rendered layouts/_header.html.erb (25.6ms)
+2013-04-07T19:02:10+00:00 app[web.1]: 
+2013-04-07T19:02:10+00:00 app[web.1]: ActionView::Template::Error (undefined method `find_by_remember_token' for #<Class:0x00000003d4fd70>):
+2013-04-07T19:02:10+00:00 app[web.1]:     6: <ul class="nav pull-right">
+2013-04-07T19:02:10+00:00 app[web.1]:     9: <% if signed_in? %>
+2013-04-07T19:02:10+00:00 app[web.1]:     7: <li><%= link_to "Home", root_path %></li>
+2013-04-07T19:02:10+00:00 app[web.1]:     8: <li><%= link_to "Help", help_path %></li>
+2013-04-07T19:02:10+00:00 app[web.1]:     10: <li><%= link_to "Users", '#' %></li>
+2013-04-07T19:02:10+00:00 app[web.1]:     11: <li id="fat-menu" class="dropdown">
+2013-04-07T19:02:10+00:00 app[web.1]:   app/helpers/sessions_helper.rb:7:in `signed_in?'
+2013-04-07T19:02:10+00:00 app[web.1]:   app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___2944801554745009316_37063100'
+2013-04-07T19:02:10+00:00 app[web.1]:     12: <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+2013-04-07T19:02:10+00:00 app[web.1]:   app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__4065221908833001822_32089500'
+2013-04-07T19:02:10+00:00 app[web.1]:   app/helpers/sessions_helper.rb:13:in `current_user'
+2013-04-07T19:02:10+00:00 app[web.1]: 
+2013-04-07T19:02:10+00:00 app[web.1]: 
+2013-04-07T19:02:10+00:00 heroku[router]: at=info method=GET path=/ host=salty-ocean-6432.herokuapp.com fwd="69.251.188.202" dyno=web.1 connect=7ms service=40ms status=500 bytes=643
+2013-04-07T19:14:31+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by irinbel1@umbc.edu
+2013-04-07T19:14:33+00:00 heroku[run.7348]: Awaiting client
+2013-04-07T19:14:33+00:00 heroku[run.7348]: Starting process with command `bundle exec rake db:migrate`
+2013-04-07T19:14:33+00:00 heroku[run.7348]: State changed from starting to up
+2013-04-07T19:14:40+00:00 heroku[run.7348]: State changed from up to complete
+2013-04-07T19:14:40+00:00 heroku[run.7348]: Process exited with status 0
+2013-04-07T19:16:14+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2013-04-07T19:16:14+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.0ms)
+2013-04-07T19:16:14+00:00 app[web.1]: 
+2013-04-07T19:16:14+00:00 app[web.1]:     6: <ul class="nav pull-right">
+2013-04-07T19:16:14+00:00 app[web.1]: Started GET "/" for 69.251.188.202 at 2013-04-07 19:16:14 +0000
+2013-04-07T19:16:14+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+2013-04-07T19:16:14+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2013-04-07T19:16:14+00:00 app[web.1]: Completed 500 Internal Server Error in 3ms
+2013-04-07T19:16:14+00:00 app[web.1]:     10: <li><%= link_to "Users", '#' %></li>
+2013-04-07T19:16:14+00:00 app[web.1]:   app/helpers/sessions_helper.rb:13:in `current_user'
+2013-04-07T19:16:14+00:00 app[web.1]:   app/helpers/sessions_helper.rb:7:in `signed_in?'
+2013-04-07T19:16:14+00:00 app[web.1]:   app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___2944801554745009316_37063100'
+2013-04-07T19:16:14+00:00 app[web.1]: ActionView::Template::Error (undefined method `find_by_remember_token' for #<Class:0x00000003d4fd70>):
+2013-04-07T19:16:14+00:00 app[web.1]:     12: <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+2013-04-07T19:16:14+00:00 app[web.1]:     9: <% if signed_in? %>
+2013-04-07T19:16:14+00:00 app[web.1]:     11: <li id="fat-menu" class="dropdown">
+2013-04-07T19:16:14+00:00 app[web.1]:     7: <li><%= link_to "Home", root_path %></li>
+2013-04-07T19:16:14+00:00 app[web.1]:     8: <li><%= link_to "Help", help_path %></li>
+2013-04-07T19:16:14+00:00 app[web.1]:   app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__4065221908833001822_32089500'
+2013-04-07T19:16:14+00:00 app[web.1]: 
+2013-04-07T19:16:14+00:00 app[web.1]: 
+2013-04-07T19:16:14+00:00 heroku[router]: at=info method=GET path=/ host=salty-ocean-6432.herokuapp.com fwd="69.251.188.202" dyno=web.1 connect=1ms service=11ms status=500 bytes=643
+2013-04-07T19:16:17+00:00 app[web.1]: Started GET "/" for 69.251.188.202 at 2013-04-07 19:16:17 +0000
+2013-04-07T19:16:17+00:00 app[web.1]: Processing by StaticPagesController#home as HTML
+2013-04-07T19:16:17+00:00 app[web.1]:   Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+2013-04-07T19:16:17+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.1ms)
+2013-04-07T19:16:17+00:00 app[web.1]: 
+2013-04-07T19:16:17+00:00 app[web.1]: Completed 500 Internal Server Error in 4ms
+2013-04-07T19:16:17+00:00 app[web.1]:     6: <ul class="nav pull-right">
+2013-04-07T19:16:17+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2013-04-07T19:16:17+00:00 app[web.1]: ActionView::Template::Error (undefined method `find_by_remember_token' for #<Class:0x00000003d4fd70>):
+2013-04-07T19:16:17+00:00 app[web.1]:   app/helpers/sessions_helper.rb:13:in `current_user'
+2013-04-07T19:16:17+00:00 app[web.1]:     7: <li><%= link_to "Home", root_path %></li>
+2013-04-07T19:16:17+00:00 app[web.1]:     10: <li><%= link_to "Users", '#' %></li>
+2013-04-07T19:16:17+00:00 app[web.1]:     8: <li><%= link_to "Help", help_path %></li>
+2013-04-07T19:16:17+00:00 app[web.1]:     11: <li id="fat-menu" class="dropdown">
+2013-04-07T19:16:17+00:00 app[web.1]:     9: <% if signed_in? %>
+2013-04-07T19:16:17+00:00 app[web.1]:     12: <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+2013-04-07T19:16:17+00:00 app[web.1]:   app/helpers/sessions_helper.rb:7:in `signed_in?'
+2013-04-07T19:16:17+00:00 app[web.1]: 
+2013-04-07T19:16:17+00:00 app[web.1]: 
+2013-04-07T19:16:17+00:00 app[web.1]:   app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__4065221908833001822_32089500'
+2013-04-07T19:16:17+00:00 app[web.1]:   app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___2944801554745009316_37063100'
+2013-04-07T19:16:17+00:00 heroku[router]: at=info method=GET path=/ host=salty-ocean-6432.herokuapp.com fwd="69.251.188.202" dyno=web.1 connect=0ms service=12ms status=500 bytes=643
+2013-04-07T19:35:19+00:00 app[web.1]: Started GET "/users/1" for 69.251.188.202 at 2013-04-07 19:35:19 +0000
+2013-04-07T19:35:19+00:00 app[web.1]: Processing by UsersController#show as HTML
+2013-04-07T19:35:19+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2013-04-07T19:35:19+00:00 app[web.1]:     9: <% if signed_in? %>
+2013-04-07T19:35:19+00:00 app[web.1]:   Rendered users/show.html.erb within layouts/application (0.8ms)
+2013-04-07T19:35:19+00:00 app[web.1]:   Rendered layouts/_header.html.erb (1.6ms)
+2013-04-07T19:35:19+00:00 app[web.1]:   Rendered layouts/_shim.html.erb (0.0ms)
+2013-04-07T19:35:19+00:00 app[web.1]: Completed 500 Internal Server Error in 51ms
+2013-04-07T19:35:19+00:00 app[web.1]: 
+2013-04-07T19:35:19+00:00 app[web.1]: ActionView::Template::Error (undefined method `find_by_remember_token' for #<Class:0x00000003d4fd70>):
+2013-04-07T19:35:1
+9+00:00 app[web.1]:     6: <ul class="nav pull-right">
+2013-04-07T19:35:19+00:00 app[web.1]:     8: <li><%= link_to "Help", help_path %></li>
+2013-04-07T19:35:19+00:00 app[web.1]:     7: <li><%= link_to "Home", root_path %></li>
+2013-04-07T19:35:19+00:00 app[web.1]:     10: <li><%= link_to "Users", '#' %></li>
+2013-04-07T19:35:19+00:00 app[web.1]:     11: <li id="fat-menu" class="dropdown">
+2013-04-07T19:35:19+00:00 app[web.1]:     12: <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+2013-04-07T19:35:19+00:00 app[web.1]: 
+2013-04-07T19:35:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___2944801554745009316_37063100'
+2013-04-07T19:35:19+00:00 app[web.1]:   app/helpers/sessions_helper.rb:13:in `current_user'
+2013-04-07T19:35:19+00:00 app[web.1]:   app/helpers/sessions_helper.rb:7:in `signed_in?'
+2013-04-07T19:35:19+00:00 app[web.1]:   app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__4065221908833001822_32089500'
+2013-04-07T19:35:19+00:00 app[web.1]: 
+2013-04-07T19:35:19+00:00 heroku[router]: at=info method=GET path=/users/1 host=salty-ocean-6432.herokuapp.com fwd="69.251.188.202" dyno=web.1 connect=5ms service=110ms status=500 bytes=643
