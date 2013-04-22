@@ -1,0 +1,107 @@
+commit b3ee15b88a174cdb9cfb7a4202f5514261946cbd
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Mon Apr 22 09:29:12 2013 +0000
+
+    Merged ex10
+
+commit af9c17f4c60fe4f3eb0dd8dd60997da0e2cfa610
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Mon Apr 22 07:46:15 2013 +0000
+
+    Added microposts
+
+commit 94edbccaaf585a317fb0e6fe22adc65881878141
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Apr 14 21:44:56 2013 +0000
+
+    Ex_Ch9
+
+commit 765c7c36d7a0ed662c48dc911deb8d7745ae6c78
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Apr 14 19:23:24 2013 +0000
+
+    foo
+
+commit 026e246ea9516d22c26dd8f05ea6531f6c354812
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Apr 14 19:05:09 2013 +0000
+
+    Finish Chapter 9
+
+commit 79e0d52b2d7cda41af85def8fec262285186c1f5
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Apr 7 19:46:32 2013 +0000
+
+    Session contrller
+
+commit 344ced065c3fe2256276102e9cc04cfb23eb2f2a
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Apr 7 18:45:48 2013 +0000
+
+    EX1
+
+commit 9e9083dd80e5fb20868c99e8c8798ccff9b4c436
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Apr 7 18:28:20 2013 +0000
+
+    "Finished sign-up-signout"
+
+commit 3b507aa23afdffd81f6ff6b3cc16827c25dbc5cc
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Mon Apr 1 04:26:54 2013 +0000
+
+    Ex 1 -5
+
+commit 0ee0fee052516d7591515dc157913d57946bdd99
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Mon Apr 1 01:22:43 2013 +0000
+
+    Added SSL to prod
+
+commit d5887ce5ef16f4202cc13d503938dbdffeef7028
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Mon Apr 1 01:20:47 2013 +0000
+
+    Finish user signup
+
+commit 91b7f96dfe432d6a33f7993f90bcf9cfafd11c11
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Mar 17 08:12:08 2013 +0000
+
+    Make a basic user model
+
+commit 9d1753a3a5d62b9f32c508276dd8aee115aae604
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sat Mar 9 06:35:27 2013 +0000
+
+    Ex56
+
+commit c51c36b52cf1cbd9056be2d8e4575df5c6870329
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sat Mar 9 04:38:09 2013 +0000
+
+    Ch5
+
+commit 701c5ddda16ac2732e3505d5b8de927aafcdd8af
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Feb 24 07:46:13 2013 +0000
+
+    Exesersizes
+
+commit 594b17fd0b5c3f334568672361a225c277c52254
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Feb 24 07:12:23 2013 +0000
+
+    Finish static pages
+
+commit 4776179a6f89a40672b29d953e302a784846d47f
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Feb 24 06:43:37 2013 +0000
+
+    Add static pages
+
+commit 68d782e0eb0a8e6df4c66532fa9757eb8db7a76a
+Author: Irina Belyaeva <irinbel1@umbc.edu>
+Date:   Sun Feb 24 06:17:06 2013 +0000
+
+    Initial commit

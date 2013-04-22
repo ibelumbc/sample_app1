@@ -8,6 +8,6 @@
     Posted <%= time_ago_in_words(feed_item.created_at) %> ago.
   </span>
   <% if current_user?(feed_item.user) %>
-  <%= render partial: 'shared/delete_link', locals: { object: feed_item } %>
+  <%= render partial: 'shared/item_delete_link', locals: { item: feed_item } %>
   <% end %>
  </li>
